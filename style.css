@@ -1,0 +1,248 @@
+html {
+  box-sizing: border-box;
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open sans", sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  overflow-x: hidden;
+  background-color: #fdff98;
+
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: "Open sans", sans-serif;
+  font-size: 16px;
+  outline: none;
+  border: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+a {
+  color: inherit;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+    margin: 0 auto;
+
+}
+a{
+    text-decoration: none;
+
+}
+.main{ 
+  margin: 0 auto;
+  max-width: 1380px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.header{
+  font-family: 'Pushster', cursive;
+  font-size: 80px;
+  cursor: default;
+}
+
+
+.first-banner{
+  height: 500px;
+  background-color: #fdff98;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.body-first-banner{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+}
+.first-content{
+  max-width: 600px;
+  margin: 0 0 0 30px;
+  display: block;
+}
+.ava-profile{
+  display: inline-block;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 120px;
+  height: 120px;
+  border-radius: 100rem;
+
+  box-shadow:0 0 0 3px white, 0 0 0 7px #2a85f7;
+}
+.ava-profile img{
+  cursor: pointer;
+    width: 120px;
+    height: 120px;
+    border-radius: 100rem;
+}
+.ava-profile img:hover{
+  
+  opacity: 0.7;
+}
+.first-container{
+  
+}
+.first-banner  img{
+
+}
+.banner{
+  font-family: 'Pushster', cursive;
+  font-size: 50px;
+  margin-bottom: 10px;
+
+}
+/*https://lxhentai.com/story/chapter.php?id=31689&token=MC41NDQyMjc5MTk3MzQzMzg3MC4xMDcyMzczNjQ5ODEyMzgxNQvv
+*/
+.para{
+  font-family: 'Oooh Baby', cursive;
+  font-size: 25px;
+  line-height: 30px;
+}
+.click-here{
+  display: flex;
+  margin-top: 20px;
+  padding: 20px 25px;
+  border-radius: 100px;
+  margin-top: 20px;
+
+  border: 1px solid black;
+}
+.click-here:hover{
+  background-color: #000000;
+  color: white ;
+  transition: 0.3s;
+}
+.content-button{
+  font-family: 'Pushster', cursive;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.content-button ion-icon{
+  font-size: 27px;
+}
+/*
+Đây là ngày thứ 2 sau sinh nhật m nên chắc mn đã chúc m hết rồi nên t chỉ nói ngắn gọn thôi
+Wish u always good in health, kind in heart and smart in mind.
+ Hãy trở nên Dương Tính trong mọi trường hợp.
+ I'll shot you by my gun, not vodka.
+*/
+.right-banner{
+  display: flex;
+  margin: 30px 30px 0 0;
+  max-width: 700px;
+  justify-content: space-between;
+}
+.right-right-banner{
+  max-width: 300px;
+  margin-left: 10px;
+}
+.right-right-banner p{
+  font-family: 'Vujahday Script', cursive;
+  font-size: 25px;
+  line-height: 30px;
+}
+.right-banner img{
+  max-height: 20em;
+}
+.intro{
+  position: absolute;
+  width: 100%;
+
+  height: 100%;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+
+}
+.body-intro{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  color:black;
+}
+.menu{
+
+}
+.menu-item{
+  font-size: 30px;
+  line-height: 35px;
+  color:black;
+}
+.last{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+font-family: 'Josefin Sans', sans-serif;
+}
+.congrat{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.img{
+  display: flex;
+  margin-top: 30px;
+}
+.img img{
+  width: 200px;
+  height: 200px;
+}
+.img h3{
+  margin-left: 30px;
+  max-width: 50px;
+}
