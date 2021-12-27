@@ -170,12 +170,6 @@ a{
 .content-button ion-icon{
   font-size: 27px;
 }
-/*
-Đây là ngày thứ 2 sau sinh nhật m nên chắc mn đã chúc m hết rồi nên t chỉ nói ngắn gọn thôi
-Wish u always good in health, kind in heart and smart in mind.
- Hãy trở nên Dương Tính trong mọi trường hợp.
- I'll shot you by my gun, not vodka.
-*/
 .right-banner{
   display: flex;
   margin: 10px;
@@ -196,8 +190,7 @@ Wish u always good in health, kind in heart and smart in mind.
 }
 .intro{
   position: absolute;
-width: 1500px;
-
+  width: 500px;
   height: 100%;
   color: white;
   font-family: 'Oswald', sans-serif;
