@@ -44,7 +44,6 @@ html {
 }
 
 body {
-  font-family: "Open sans", sans-serif;
   font-size: 18px;
   line-height: 1;
   overflow-x: hidden;
@@ -72,8 +71,7 @@ a {
 
 body{
     font-family: 'Roboto Condensed', sans-serif;
-
-
+    background-color: #fdff98;
     margin: 0 auto;
 
 }
@@ -108,19 +106,18 @@ a{
 }
 .first-content{
   max-width: 600px;
-  margin: 0 0 0 30px;
+  margin: 0 0 0 10px;
   display: block;
 }
+
 .ava-profile{
   display: inline-block;
-
   margin-top: 30px;
   margin-bottom: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   width: 120px;
   height: 120px;
   border-radius: 100rem;
-
   box-shadow:0 0 0 3px white, 0 0 0 7px #2a85f7;
 }
 .ava-profile img{
@@ -145,10 +142,8 @@ a{
   margin-bottom: 10px;
 
 }
-/*https://lxhentai.com/story/chapter.php?id=31689&token=MC41NDQyMjc5MTk3MzQzMzg3MC4xMDcyMzczNjQ5ODEyMzgxNQvv
-*/
 .para{
-  font-family: 'Oooh Baby', cursive;
+  font-family: 'Oswald', sans-serif;
   font-size: 25px;
   line-height: 30px;
 }
@@ -175,15 +170,9 @@ a{
 .content-button ion-icon{
   font-size: 27px;
 }
-/*
-Đây là ngày thứ 2 sau sinh nhật m nên chắc mn đã chúc m hết rồi nên t chỉ nói ngắn gọn thôi
-Wish u always good in health, kind in heart and smart in mind.
- Hãy trở nên Dương Tính trong mọi trường hợp.
- I'll shot you by my gun, not vodka.
-*/
 .right-banner{
   display: flex;
-  margin: 30px 30px 0 0;
+  margin: 10px;
   max-width: 700px;
   justify-content: space-between;
 }
@@ -201,7 +190,7 @@ Wish u always good in health, kind in heart and smart in mind.
 }
 .intro{
   position: absolute;
-  width: 100%;
+width: 1500px;
 
   height: 100%;
   color: white;
@@ -222,6 +211,14 @@ Wish u always good in health, kind in heart and smart in mind.
   font-size: 30px;
   line-height: 35px;
   color:black;
+}
+@media screen and (min-width: 500px) {
+  .menu-item{
+    font-size: 20px;
+  }
+}
+.menu-item p{
+
 }
 .last{
 position: absolute;
